@@ -7,13 +7,7 @@
 ```js
 var mpaEntries = require('../../index');
 var glob = require('glob');;
-var paths = "src/modules/**/index.js";
-//default:
-var sliceKeys = [
-    'src/modules',
-    'index.js'
-];
-var entries = mpaEntries(paths,sliceKeys);
+var entries = mpaEntries("src/modules/**/index.js");
 
 // result:
  { 'blank-module': 'src/modules/blank-module/index.js',
