@@ -21,9 +21,7 @@ module.exports = function (inGlob, inSliceKeys, inOptions) {
   var globPaths = Array.isArray(inGlob) ? inGlob : glob.sync(inGlob, options);
   var entries = {};
   globPaths.forEach(function (path) {
-    entries[
-      getSlicedKey(path, inSliceKeys, options)
-    ] = path;
+    entries[ getSlicedKey(path, inSliceKeys, options) ] = path;
   });
   return entries;
 };
