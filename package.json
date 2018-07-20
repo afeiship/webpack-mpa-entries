@@ -1,0 +1,16 @@
+{
+  "name": "webpack-mpa-entries",
+  "version": "0.0.1",
+  "description": "Multiple page entries app for webpack",
+  "homepage": "https://github.com/afeiship/webpack-mpa-entries",
+  "author": {
+    "name": "afei",
+    "email": "1290657123@qq.com"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^7.1.2",
+    "object-assign": "^4.1.1"
+  }
+}
