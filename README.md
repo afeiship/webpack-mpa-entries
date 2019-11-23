@@ -1,5 +1,5 @@
 # webpack-mpa-entries
-> Multiple page entries app for webpack
+> Multiple page entries app for webpack.
 
 
 ## usage:

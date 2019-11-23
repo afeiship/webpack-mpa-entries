@@ -1,7 +1,7 @@
 {
-  "name": "webpack-mpa-entries",
-  "version": "0.0.1",
-  "description": "Multiple page entries app for webpack",
+  "name": "@feizheng/webpack-mpa-entries",
+  "version": "1.0.0",
+  "description": "Multiple page entries app for webpack.",
   "homepage": "https://github.com/afeiship/webpack-mpa-entries",
   "author": {
     "name": "afei",
