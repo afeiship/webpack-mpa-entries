@@ -2,7 +2,12 @@
 > Multiple page entries app for webpack.
 
 
-## usage:
+## installation
+```shell
+npm i -D @feizheng/webpack-mpa-entries
+```
+
+## usage
 
 ```js
 var mpaEntries = require('../../index');
