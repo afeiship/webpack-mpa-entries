@@ -1,11 +1,7 @@
-var glob = require('glob');
-var resolve = require('path').resolve;
-var dirname = require('app-root-path').path;
-var DEFAULT_SLICE_KEYS = [
-  'src/modules',
-  'index.js'
-];
-
+var glob = require("glob");
+var resolve = require("path").resolve;
+var dirname = require("app-root-path").path;
+var DEFAULT_SLICE_KEYS = ["src/modules", "index.js"];
 
 function getSlicedKey(inPath, inSliceKeys, inOptions) {
   var isAbsolute = inOptions.absolute || false;
@@ -16,11 +12,11 @@ function getSlicedKey(inPath, inSliceKeys, inOptions) {
   return inPath.slice(start, -end);
 }
 
-module.exports = function (inGlob, inSliceKeys, inOptions) {
+module.exports = function(inGlob, inSliceKeys, inOptions) {
   var options = inOptions || {};
   var globPaths = Array.isArray(inGlob) ? inGlob : glob.sync(inGlob, options);
   var entries = {};
-  globPaths.forEach(function (path) {
+  globPaths.forEach(function(path) {
     entries[getSlicedKey(path, inSliceKeys, options)] = path;
   });
   return entries;

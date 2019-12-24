@@ -1,6 +1,6 @@
 var mpaEntries = require('../../index');
 var glob = require('glob');;
-var paths = "src/modules/**/index.js";
+var paths = "./src/modules/**/index.js";
 var entries = mpaEntries(paths);
 
 
