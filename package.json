@@ -24,5 +24,11 @@
   },
   "scripts": {
     "release": "release-it"
-  }
+  },
+  "keywords": [
+    "webpack",
+    "multiple",
+    "page",
+    "entry"
+  ]
 }
