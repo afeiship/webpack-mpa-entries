@@ -4,7 +4,7 @@
 
 ## installation
 ```shell
-npm i -D @feizheng/webpack-mpa-entries
+npm i @jswork/webpack-mpa-entries
 ```
 
 ## usage

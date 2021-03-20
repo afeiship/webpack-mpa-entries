@@ -1,6 +1,6 @@
 {
-  "name": "@feizheng/webpack-mpa-entries",
-  "version": "1.0.2",
+  "name": "@jswork/webpack-mpa-entries",
+  "version": "1.0.0",
   "description": "Multiple page entries app for webpack.",
   "homepage": "https://github.com/afeiship/webpack-mpa-entries",
   "author": {
@@ -15,10 +15,14 @@
     "object-assign": "^4.1.1"
   },
   "devDependencies": {
-    "@feizheng/rake-git": "^1.2.0",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "release-it": "^14.4.1"
   },
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "release": "release-it"
   }
 }

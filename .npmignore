@@ -9,5 +9,5 @@ gulpfile.js
 
 .editorconfig
 .prettierrc
-Gemfile
-Rakefile
+__tests__
+.release-it.json
