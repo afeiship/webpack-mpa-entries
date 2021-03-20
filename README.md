@@ -9,7 +9,7 @@ npm i @jswork/webpack-mpa-entries
 
 ## usage
 ```js
-var mpaEntries = require('../../index');
+var mpaEntries = require('@jswork/webpack-mpa-entries');
 var glob = require('glob');;
 var entries = mpaEntries("src/modules/**/index.js", ["src/modules", "index.js"]);
 
